@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <h1>Dashboard</h1>
+
+    <h2>Welcome, <%= username %>!</h2>
+
+    <p>Your session ID: <%= sessionId %></p>
+
+    <p>
+        You have visited this page
+        <strong><%= visitCount %></strong>
+        times during this session.
+    </p>
+
+    <a href="/dashboard">Refresh Dashboard</a>
+    <br><br>
+
+    <a href="/logout">Logout</a>
+
+</body>
+</html>
